@@ -23,6 +23,8 @@
             border: 2px solid black;
             padding: 10px;
             align-items: center;
+            position: sticky;
+            top: 0px;
 
         }
 
@@ -120,6 +122,34 @@
             border-radius: 10px;
             width: 356px;
         }
+
+        .explor-container {
+            display: block;
+        }
+
+        .explor-img {
+            height: 260px;
+            margin-left: 943px;
+            margin-top: 62px
+        }
+
+        .explore-btn {
+            position: absolute;
+            top: 411px;
+            right: 354px;
+            text-decoration: none;
+            border: 5px solid white;
+            padding: 9px;
+            font-size: 30px;
+            color: #cdcdcd;
+        }
+        
+        .explore-btn:hover {
+            background-color: rgba(128, 128, 128, 0.457);
+            color: #efa24a;
+            font-weight: 100;
+            
+        }
     </style>
 </head>
 
@@ -147,15 +177,16 @@
                 <option value="city" class="city-select-options">PUNE</option>
                 <option value="city" class="city-select-options">MUMBAI</option>
                 <option value="city" class="city-select-options">NAGPUR</option>
-                <option value="city" class="city-select-options">SANGAMNER 1
+                <option value="city" class="city-select-options">SANGAMNER
                 </option>
 
             </select>
             <input type="text" name="" class="input-container" placeholder="Enter Your City">
-            <h1>1
-                
-            </h1>
 
+        </div>
+        <div class="explor-container">
+            <img src="/img/chef-14488.png" alt="" class="explor-img">
+            <a href="#" class="explore-btn">EXPLORE NOW</a>
         </div>
 
     </div>
