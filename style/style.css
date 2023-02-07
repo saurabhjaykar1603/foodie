@@ -52,9 +52,9 @@ body {
     transition: 0.55s;
 }
 .navbar-dicsount-notification{
-    margin-left: 10px;
+    margin-left: 129px;
     color: white;
-    font-size: 15px;
+    font-size: 23px;
 }
 
 .web-name-container {
@@ -159,5 +159,20 @@ body {
     color: #efa24a;
     font-weight: 100;
     
+}
+/* /* foodcategories-container main  explore page */
+.food-categories-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.food-categories-card{
+    background-color: tomato;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+
+
 }
 
