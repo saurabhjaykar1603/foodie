@@ -44,14 +44,15 @@ body {
 
 
 }
-.navbar-pages-tags:hover{
-    border-radius: 10px;
+
+.navbar-pages-tags:hover {
     background-color: #f0e5e5;
     color: black;
     font-weight: bolder;
     transition: 0.55s;
 }
-.navbar-dicsount-notification{
+
+.navbar-dicsount-notification {
     margin-left: 129px;
     color: white;
     font-size: 23px;
@@ -158,21 +159,62 @@ body {
     background-color: rgba(128, 128, 128, 0.457);
     color: #efa24a;
     font-weight: 100;
-    
+
 }
+
 /* /* foodcategories-container main  explore page */
-.food-categories-container{
+.food-categories-container {
     display: flex;
     justify-content: space-around;
-
+    ba
 }
-.food-categories-card{
-    background-color: tomato;
-    height: 200px;
-    width: 150px;
+
+.food-categories-card {
+    background-color: #ffb54c;
+    width: 250px;
     margin: 10px;
     padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
 
 
 }
 
+.food-categories-card-img {
+    height: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    box-shadow: 0 0 2px 5px gray;
+}
+
+.food-category-card-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.explore-more-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 1px 1px gray;
+    font-weight: bolder;
+
+}
+
+.explore-more-button:hover {
+    background-color: #2c2c2c;
+    color: white;
+    font-weight: bolder;
+    transition: 0.55s;
+}
