@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/food-back-img.jpg);
+    /* for img fit  */
+    background-size: cover;
+
+
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(3 4 0 / 62%);
+    border: 2px solid black;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+
+.navbar-logo-img {
+    height: 55px;
+    padding-left: 20px;
+
+
+}
+
+.navbar-pages {
+    text-align: center;
+    margin: 20px;
+    text-align: center;
+}
+
+.navbar-pages-tags {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 1px 1px gray;
+}
+
+.web-name-container {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.web-name-title {
+    margin: 20px 0px;
+    font-size: 55px;
+    text-shadow: 5px 2px 7px #20201e;
+    color: #ffa525;
+}
+
+.micky-img-png {
+    height: 102px;
+    margin: 20px 15px;
+    padding-right: 100px;
+    /* png img border shadows */
+    filter: drop-shadow(5px 5px 4px #ffa525);
+
+}
+
+.city-input-container {
+    display: flex;
+}
+
+.city-input-container-ttile {
+    font-size: 37px;
+    margin-top: 4px;
+    margin-left: 539px;
+    text-shadow: 5px 2px 7px #000000;
+    color: white;
+}
+
+.select-container {
+    display: flex;
+    background-color: #ffa525;
+    position: relative;
+}
+
+.city-select-container {
+    position: absolute;
+    left: 561px;
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid #ffa525;
+    background-color: #cdcdcd;
+    font-weight: bold;
+    color: #0d0b0c;
+    border-radius: 10px;
+}
+
+.city-select-options {
+    font-size: 15px;
+    border: 2px solid #ffa525;
+    background-color: #cdcdcd;
+    font-weight: bold;
+    color: #0d0b0c;
+    border-radius: 10px;
+
+}
+
+.input-container {
+    position: absolute;
+    left: 730px;
+    padding: 12px;
+    font-size: 15px;
+    border: 2px solid #ffa525;
+    background-color: #cdcdcd;
+    font-weight: bold;
+    color: #000000;
+    border-radius: 10px;
+    width: 356px;
+}
+
+.explor-container {
+    display: block;
+}
+
+.explor-img {
+    height: 260px;
+    margin-left: 943px;
+    margin-top: 62px
+}
+
+.explore-btn {
+    position: absolute;
+    top: 411px;
+    right: 354px;
+    text-decoration: none;
+    border: 5px solid white;
+    padding: 9px;
+    font-size: 30px;
+    color: #cdcdcd;
+}
+
+.explore-btn:hover {
+    background-color: rgba(128, 128, 128, 0.457);
+    color: #efa24a;
+    font-weight: 100;
+    
+}
+
